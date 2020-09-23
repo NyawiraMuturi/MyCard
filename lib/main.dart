@@ -10,8 +10,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Container(
-
+        body: SafeArea(
+          child: Container(
+            color: Colors.white,
+            child: Text('Hello'),
+            height: 100.0,
+            width: 100.0,
+            margin: EdgeInsets.all(30.0),
+            padding: EdgeInsets.fromLTRB(10.0, 9.1, 10.0, 9.1),
+          ),
         ),
       ),
     );
