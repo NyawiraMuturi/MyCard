@@ -31,7 +31,19 @@ class MyApp extends StatelessWidget {
                 style: TextStyle (
                   fontFamily: 'Abel',
                   fontSize: 15.0,
-                  color: Colors.white,
+                  color: Colors.teal.shade100,
+                ),
+              ),
+              Container (
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                    ),
+                    Icon(
+                      Icons.email,
+                    )
+                  ],
                 ),
               ),
             ],
