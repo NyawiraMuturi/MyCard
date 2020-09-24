@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blueGrey,
         body: SafeArea(
           child: Column (
             children: <Widget>[
@@ -18,9 +18,19 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/albina.jpg'),
               ),
               Text(
-                  'Albina Nyawira Muturi',
+                  'Albina Muturi',
                 style: TextStyle (
+                  fontFamily: 'Dancing Script',
                   fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'ANDROID AND FLUTTER DEVELOPER',
+                style: TextStyle (
+                  fontFamily: 'Abel',
+                  fontSize: 15.0,
                   color: Colors.white,
                 ),
               ),

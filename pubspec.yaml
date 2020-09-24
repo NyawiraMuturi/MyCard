@@ -24,6 +24,14 @@ flutter:
 
   assets:
     - images/
+  fonts:
+    - family: Dancing Script
+      fonts:
+        - asset: fonts/DancingScript-Regular.ttf
+
+    - family: Abel
+      fonts:
+        - asset: fonts/Abel-Regular.ttf
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
